@@ -1,0 +1,73 @@
+# ─── Python ────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+env/
+.venv/
+.env/
+ENV/
+
+# ─── Editor / OS ───────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# ─── Test / coverage ───────────────────────────────────────────────────────
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# ─── Toolkit-specific: keep PII out of the repo ────────────────────────────
+# Engine output directories
+out/
+out_*/
+output/
+coinstats_tax_output/
+
+# Generated tax-filing packages
+tax_filing/
+tax_filing_*/
+
+# Any user-supplied input data — only the synthetic example/ files belong here.
+*.user.csv
+*_user.csv
+manual_entries_user*.csv
+transactions-*.csv
+transactions.csv
+
+# Common evidence dumps a user might place at the repo root
+evidence/
+exports/
+exchange_csvs/
+on_chain_csvs/
+notion_journal/
+*.xlsx
+*.pdf
+
+# Anything in a folder explicitly marked private
+private/
+.private/

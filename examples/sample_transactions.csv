@@ -1,0 +1,31 @@
+Portfolio,Coin Name,Coin Symbol,Exchange,Pair,Type,Amount,Price CAD,Fee Percent,Fee Amount,Fee Currency,Date,Notes
+Maple Crypto,Bitcoin,BTC,Maple Crypto,BTC/CAD,Buy,0.50000000,58000.00,0.5,145.00,CAD,2024-01-15 10:30:00,Initial fiat-onramp BTC purchase
+Maple Crypto,Ethereum,ETH,Maple Crypto,ETH/CAD,Buy,5.00000000,4000.00,0.5,100.00,CAD,2024-02-01 14:15:00,Initial fiat-onramp ETH purchase
+Maple Crypto,Solana,SOL,Maple Crypto,SOL/CAD,Buy,100.00000000,200.00,0.5,100.00,CAD,2024-03-05 09:00:00,
+Maple Crypto,Bitcoin,BTC,,,Sent,0.50000000,60000.00,,,,2024-04-10 11:00:00,Withdraw to self-custody
+Polar Wallet,Bitcoin,BTC,,,Received,0.50000000,60000.00,,,,2024-04-10 11:05:00,Inbound from Maple Crypto withdrawal
+Maple Crypto,Ethereum,ETH,,,Sent,5.00000000,4500.00,,,,2024-04-12 13:00:00,Withdraw to self-custody
+Polar Wallet,Ethereum,ETH,,,Received,5.00000000,4500.00,,,,2024-04-12 13:05:00,Inbound from Maple Crypto withdrawal
+Polar Wallet,USD Coin,USDC,,,Buy,1000.00000000,1.36,,,,2024-05-01 10:00:00,Stablecoin position
+Polar Wallet,Goodtoken,GOOD,,,Received,500.00000000,0.10,,,,2024-06-15 18:00:00,Airdrop — book FMV at receipt as Other Income
+Polar Wallet,Bitcoin,BTC,,BTC/ETH,Sell,0.20000000,90000.00,,,,2024-07-04 12:00:00,DeFi swap sell-leg (BTC for ETH)
+Polar Wallet,Ethereum,ETH,,BTC/ETH,Buy,4.00000000,4500.00,,,,2024-07-04 12:00:00,DeFi swap buy-leg (BTC for ETH)
+Polar Wallet,Goodtoken,GOOD,,GOOD/CAD,Sell,500.00000000,0.50,,,,2024-08-15 16:00:00,Airdrop disposal
+Skyport,NFT MoonGuy 423,MOONGUY,Skyport,MOONGUY/ETH,Buy,1.00000000,500.00,,,,2024-09-01 20:00:00,NFT primary purchase
+Polar Wallet,USD Coin,USDC,,,Sent,500.00000000,1.37,,,,2024-10-20 09:00:00,Move USDC to vault
+Vault Wallet,USD Coin,USDC,,,Received,500.00000000,1.37,,,,2024-10-20 09:05:00,Inbound from Polar Wallet
+Polar Wallet,Bitcoin,BTC,,BTC/CAD,Sell,0.10000000,80000.00,,,,2024-11-30 15:00:00,Profit-taking sale
+Polar Wallet,Bumptoken,BUMP,,,Received,1000.00000000,0.02,,,,2024-12-15 10:00:00,Small airdrop
+Polar Wallet,Ethereum,ETH,,,Received,2.00000000,5000.00,,,,2025-01-15 14:00:00,No prior Send — missing-ACB scenario (engine will FMV-impute)
+Polar Wallet,Ethereum,ETH,,ETH/CAD,Sell,2.00000000,5000.00,,,,2025-02-10 11:00:00,Disposal of the missing-ACB ETH
+Maple Crypto,Solana,SOL,Maple Crypto,SOL/CAD,Sell,50.00000000,300.00,0.5,75.00,CAD,2025-03-01 13:00:00,Profit-taking sale
+Skyport,NFT MoonGuy 423,MOONGUY,Skyport,MOONGUY/ETH,Sell,1.00000000,700.00,,,,2025-03-15 20:00:00,NFT secondary sale
+Polar Wallet,Tether,USDT,,,Buy,100.00000000,1.36,,,,2025-04-20 09:00:00,Stablecoin position
+Polar Wallet,Tether,USDT,,USDT/CAD,Sell,100.00000000,1.36,,,,2025-05-10 09:00:00,Stablecoin disposal (zero gain)
+Polar Wallet,Bitcoin,BTC,,,Sent,0.20000000,130000.00,,,,2025-06-01 10:00:00,Move BTC to vault
+Vault Wallet,Bitcoin,BTC,,,Received,0.20000000,130000.00,,,,2025-06-01 10:05:00,Inbound from Polar Wallet
+Polar Wallet,Bumptoken,BUMP,,BUMP/CAD,Sell,1000.00000000,0.05,,,,2025-07-15 14:00:00,Airdrop disposal
+Polar Wallet,Newcoin,NEW,,ETH/NEW,Buy,200.00000000,5.00,,,,2025-08-01 11:00:00,DeFi swap buy-leg (ETH for NEW)
+Polar Wallet,Ethereum,ETH,,ETH/NEW,Sell,1.00000000,1000.00,,,,2025-08-01 11:00:00,DeFi swap sell-leg (ETH for NEW)
+Polar Wallet,Newcoin,NEW,,NEW/CAD,Sell,200.00000000,1.00,,,,2025-10-01 16:00:00,Loss-taking sale on NEW position
+Polar Wallet,Bitcoin,BTC,,BTC/CAD,Sell,0.05000000,140000.00,,,,2025-11-30 13:00:00,Profit-taking sale

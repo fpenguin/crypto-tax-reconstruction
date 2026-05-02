@@ -1,0 +1,3 @@
+Portfolio,Coin Name,Coin Symbol,Type,Amount,Price CAD,Fee Amount,Fee Currency,Date,Notes,Supersedes
+Polar Wallet,Ethereum,ETH,Buy,2.00000000,4400.00,0,,2024-12-20 10:00:00,"Reconstructed buy: this anchors the ACB for the 2 ETH that arrived 2025-01-15 with no matching Send. Evidence: bank transfer of $8,800 CAD on this date matches a since-defunct exchange's deposit confirmation. Documented in evidence/2024_dec_eth_reconstruction.pdf.",
+Polar Wallet,Goodtoken,GOOD,Buy,500.00000000,0.10,0,,2024-06-15 18:00:00,"Anchor entry for the GOOD airdrop received on this date. The Received row on the same date is reclassified as a transfer-in matched to this anchor.","2024-06-15 18:00:00|received|GOOD|500.0|Polar Wallet"
