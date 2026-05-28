@@ -199,6 +199,66 @@ For a deeper write-up of the design choices and trade-offs, see
 For a CRA-targeted cover letter template you can adapt, see
 [`docs/COVER_LETTER_TEMPLATE.md`](docs/COVER_LETTER_TEMPLATE.md).
 
+## Canadian crypto tax guides (v1.1)
+
+Battle-tested guidance for Canadian crypto filers, distilled from real-world
+multi-year reconstruction experience.
+
+### Core workflow guides
+
+- [`docs/T1_ADJUSTMENT_WORKFLOW.md`](docs/T1_ADJUSTMENT_WORKFLOW.md) — How to
+  amend a previously-filed T1 return. Covers ReFILE vs Change My Return vs paper
+  T1-ADJ, the "wait for NOA" rule, NETFILE error code 686, pre-payment strategy,
+  and common amendment scenarios.
+
+- [`docs/COMBINED_POOL_ACB.md`](docs/COMBINED_POOL_ACB.md) — How to apply
+  Section 47 of the Income Tax Act (weighted-average ACB across all your
+  holdings of the same crypto). Includes worked examples, common mistakes,
+  and how exchange-prepared ACB often differs from the correct calculation.
+
+- [`docs/CARF_PREPARATION_2026.md`](docs/CARF_PREPARATION_2026.md) — The
+  Crypto-Asset Reporting Framework takes effect January 1, 2026.
+  Reconciliation strategy, voluntary disclosure timing, pre-CARF checklist,
+  and what changes for individual Canadian filers.
+
+### Specific tax treatments
+
+- [`docs/ABANDONMENT_CLAIMS_GUIDE.md`](docs/ABANDONMENT_CLAIMS_GUIDE.md) — How
+  to claim capital losses on worthless or unrecoverable crypto-assets. Five
+  defensible categories (platform shutdown, failed migration, dead contract,
+  defunct NFT marketplace, post-hack failed recovery). Documentation requirements
+  and Section 50(1) ITA limitations.
+
+- [`docs/LIQUID_STAKING_TAX.md`](docs/LIQUID_STAKING_TAX.md) — Two defensible
+  treatments for liquid staking derivatives (Lido stETH, Sanctum LST, Marinade
+  mSOL, etc.): non-taxable wrap vs taxable swap. Worked examples and decision
+  factors.
+
+- [`docs/AIRDROPS_AND_GAMEPLAY_REWARDS.md`](docs/AIRDROPS_AND_GAMEPLAY_REWARDS.md) —
+  $0 ACB at receipt vs FMV-as-income treatment. Covers airdrops (JUP, PENGU,
+  BONK), play-to-earn rewards (StepN, Walken), and custodial rewards
+  (Wealthsimple staking, Coinbase USDC rewards).
+
+### Reference
+
+- [`docs/NETFILE_ERROR_CODES.md`](docs/NETFILE_ERROR_CODES.md) — Quick reference
+  for CRA NETFILE rejection codes, with detailed treatment of error 686 (the
+  most common one for crypto filers attempting ReFILE before NOA).
+
+- [`docs/AUDIT_DEFENSE_BINDER.md`](docs/AUDIT_DEFENSE_BINDER.md) — 7-year document
+  organization framework. A-J category structure. Common CRA queries and
+  response procedures.
+
+- [`HANDOFF_TEMPLATE.md`](HANDOFF_TEMPLATE.md) — Template for multi-year
+  AI-assisted crypto tax projects. Self-contained handoff structure (16
+  sections) that any AI agent (Claude, Codex, GPT, etc.) can use to pick up
+  work without prior memory.
+
+- [`KNOWN_ISSUES.md`](KNOWN_ISSUES.md) — Documented toolkit bugs and
+  workarounds. Pull requests welcome.
+
+- [`CHANGELOG.md`](CHANGELOG.md) — Release history.
+
 ## Disclaimer
 
 This software is provided as-is, with no warranty of fitness for any
